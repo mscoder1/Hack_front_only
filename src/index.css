@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap");
+@font-face {
+  font-family: "Ponter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/Ponter.ttf);
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --header-background: #393939;
+  --header-button: #fbfbfb;
+  --header-logo: #536a8c;
+
+  --content-button: #f3f3f3;
+  --content-background: #272727;
+  --content-text: #e7e7e7;
+  --content-block: #424242;
+
+  --content-light: #ffffff;
+  --content-dark: #050d14;
+
+  --border-radius: 16px;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.vkuiGroup--mode-none.vkuiGroup--sizeX-none > .vkuiGroup__inner {
+  background: transparent;
+}
+
+.poap-marker {
+  width: 45px;
+  height: 50px;
+  clip-path: path(
+    "M0 13.0435C0 5.83978 5.83976 0 13.0435 0H31.884C39.0878 0 44.9275 5.83976 44.9275 13.0435V33.6956C44.9275 39.8988 39.8988 44.9275 33.6957 44.9275V44.9275V44.9275C30.6954 44.9275 27.8965 46.2678 25.6001 48.1985C24.4332 49.1795 23.2287 50 22.4638 50C21.7386 50 19.9249 48.73 18.2935 47.461C16.2655 45.8834 13.8012 44.9275 11.2319 44.9275V44.9275V44.9275C5.02869 44.9275 0 39.8989 0 33.6957V13.0435Z"
+  );
+
+  background-size: contain;
+  cursor: pointer;
+}
